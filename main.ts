@@ -11,9 +11,9 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 // "The Apprentice" — a poem about agency as the power to withhold action.
-// A master watches his apprentice cut a joint wrong and does not step in:
-// the choosing is the not-doing, and the chair is made by the cut the
-// master's hands did not make. The restraint is the agency.
+// A master watches his apprentice cut a joint wrong and does not step in.
+// The choosing is the not-doing: the chair is made by the cut the
+// master's hands did not make, and the restraint itself is the agency.
 const STANZAS: string[][] = [
   [
     'He cut the dovetail wrong. I saw it',
